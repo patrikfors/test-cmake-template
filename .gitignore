@@ -56,3 +56,6 @@ x64/*
 *.db
 *.suo
 ProjectFolder/build/
+
+# CLion
+.idea/
