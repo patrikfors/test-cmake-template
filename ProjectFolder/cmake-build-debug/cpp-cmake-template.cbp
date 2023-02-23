@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp-cmake-template"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\binary\;CMake Files\src\lib\;CMake Files\src\lib\utility\;CMake Files\src\submodules\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 test"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-cmake-template">
+				<Option output="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/binary/cpp-cmake-template.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/binary"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 cpp-cmake-template"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-cmake-template/fast">
+				<Option output="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/binary/cpp-cmake-template.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/binary"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 cpp-cmake-template/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\binary\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility">
+				<Option output="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/lib/utility/utility.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/lib/utility"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/include/utility"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 utility"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility/fast">
+				<Option output="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/lib/utility/utility.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/src/lib/utility"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/include/utility"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 utility/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\src\lib\utility\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_utility">
+				<Option output="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/tests/test_utility.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 test_utility"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_utility/fast">
+				<Option output="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/tests/test_utility.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 test_utility/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\PF2739\CLionProjects\test-cmake-template\ProjectFolder\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/binary/main.cpp">
+			<Option target="cpp-cmake-template"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/src/utility.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/tests/test_utility.cpp">
+			<Option target="test_utility"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/binary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\binary\"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/lib/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\utility\"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/src/submodules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\submodules\"/>
+		</Unit>
+		<Unit filename="C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

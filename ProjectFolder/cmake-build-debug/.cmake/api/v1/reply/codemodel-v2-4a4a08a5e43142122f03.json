@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src/binary",
+					"jsonFile" : "directory-src.binary-Debug-84d7c218c83fa5cf6450.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/binary",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/lib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.lib-Debug-77b8521428f2882cb259.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lib"
+				},
+				{
+					"build" : "src/lib/utility",
+					"jsonFile" : "directory-src.lib.utility-Debug-d40d7fb5f5a80d5d5c29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/lib/utility",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/submodules",
+					"jsonFile" : "directory-src.submodules-Debug-4a1c9fa44ec36fc4a08f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/submodules"
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "cpp-cmake-template",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cpp-cmake-template::@f2db52b8b63146a0eefe",
+					"jsonFile" : "target-cpp-cmake-template-Debug-42ccde1fb9ee20fa9eea.json",
+					"name" : "cpp-cmake-template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test_utility::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_utility-Debug-a40873a8acbf0c233071.json",
+					"name" : "test_utility",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "utility::@8598e57de09d0df28fc0",
+					"jsonFile" : "target-utility-Debug-aafb2cb8e901eaec5ebc.json",
+					"name" : "utility",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder/cmake-build-debug",
+		"source" : "C:/Users/PF2739/CLionProjects/test-cmake-template/ProjectFolder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

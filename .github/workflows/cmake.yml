@@ -1,0 +1,48 @@
+name: cpp-cmake-template
+on:
+  push: null
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  windows:
+    name: windows
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      ENV_DIR: ${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: lukka/get-cmake@latest
+      - uses: ilammy/msvc-dev-cmd@v1
+      # configure/build
+      - uses: lukka/run-cmake@v10
+        with:
+          cmakeListsTxtPath: ${{ github.workspace }}/ProjectFolder/CMakeLists.txt
+          configurePreset: debug
+          buildPreset: debug
+      # run tests
+      - uses: lukka/run-cmake@v10
+        with:
+          cmakeListsTxtPath: ${{ github.workspace }}/ProjectFolder/CMakeLists.txt
+          testPreset: default
+  linux:
+    name: linux
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ENV_DIR: ${{ github.workspace }}
+    steps:
+      # configure and build
+        - uses: actions/checkout@v3
+        - uses: lukka/get-cmake@latest
+        - uses: lukka/run-cmake@v10
+          with:
+            cmakeListsTxtPath: ${{ github.workspace }}/ProjectFolder/CMakeLists.txt
+            configurePreset: debug
+            buildPreset: debug
+      # run tests
+        - uses: lukka/run-cmake@v10
+          with:
+            cmakeListsTxtPath: ${{ github.workspace }}/ProjectFolder/CMakeLists.txt
+            testPreset: default
