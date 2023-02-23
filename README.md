@@ -1,4 +1,4 @@
-[![test-cmake-template](https://github.com/patrikfors/test-cmake-template/actions/workflows/cmake.yml/badge.svg?branch=master)](https://github.com/patrikfors/test-cmake-template/actions/workflows/cmake.yml)
+[![test-cmake-template](https://github.com/patrikfors/test-cmake-template/actions/workflows/cmake.yml/badge.svg?branch=main)](https://github.com/patrikfors/test-cmake-template/actions/workflows/cmake.yml)
 
 <h1>test cpp-cmake-template</h1>
 This is an instantiated clone of mortinger91/cpp-cmake-template that has been cleaned up  
